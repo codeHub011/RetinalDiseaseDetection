@@ -1,12 +1,16 @@
-
+Retinal Eye Disease Detection
 OCT Retinal Disease Detection System
-This project is a Deep Learning-based Web Application that detects retinal diseases from OCT (Optical Coherence To■ Project Overview
+This project is a Deep Learning-based Web Application that detects retinal diseases from OCT (Optical Coherence Tomography)
+
+Project Overview
 The system classifies OCT images into the following categories:
 - CNV (Choroidal Neovascularization)
 - DME (Diabetic Macular Edema)
 - DRUSEN
 - NORMAL
-It uses a trained model (Trained_eye_disease_model.h5) and provides a simple UI for users to upload images and ge■■ Technologies Used
+It uses a trained model (Trained_eye_disease_model.h5) and provides a simple UI for users to upload images
+
+Technologies Used
 - Python
 - TensorFlow / Keras
 - Streamlit
