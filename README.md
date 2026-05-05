@@ -1,11 +1,11 @@
-# Deep Feature Fusion-Based Retinal Eye Disease Detection from OCT Images
+#Deep Feature Fusion-Based Retinal Eye Disease Detection from OCT Images
 📌 Overview
 
 This project presents a deep learning-based web application for automated detection of retinal diseases using OCT (Optical Coherence Tomography) images.
 
 The system leverages a trained neural network model to classify retinal scans into multiple disease categories, enabling faster and more accurate diagnosis support.
 
-🎯## Key Features
+🎯Key Features
 🔍 Automated disease classification from OCT images
 ⚡ Fast and user-friendly web interface (Streamlit)
 🧠 Deep learning model trained on large dataset (~84K images)
@@ -20,7 +20,7 @@ DME – Diabetic Macular Edema
 DRUSEN
 NORMAL – Healthy retina
 
-🛠️## Tech Stack
+🛠️ Tech Stack
 Programming Language: Python
 Frameworks/Libraries:
 TensorFlow / Keras
@@ -28,7 +28,7 @@ NumPy
 Streamlit
 Model Architecture: MobileNetV3 (for preprocessing & feature extraction)
 
-📁 ##Project Structure
+📁 Project Structure
 Project/
 │── app.py
 │── training_model.ipynb
@@ -55,7 +55,7 @@ source venv/bin/activate
 3️⃣ Install Dependencies
 pip install streamlit tensorflow numpy
 
-🚀 ##How to Run
+🚀How to Run
 Step 1: Ensure Model File
 
 Make sure:
@@ -69,14 +69,14 @@ streamlit run app.py
 Step 3: Open in Browser
 http://localhost:8501
 
-🧑‍💻## Usage Guide
+🧑‍💻Usage Guide
 Open the web application
 Navigate to Disease Identification
 Upload an OCT image
 Click Predict
 View classification result
 
-🧠 ##Model Training Pipeline
+🧠 Model Training Pipeline
 Data collection and loading
 Image preprocessing (resize to 224×224)
 Train-test split
@@ -85,7 +85,7 @@ Training & validation
 Performance evaluation
 Model saving (.h5)
 
-📈 ##Possible Improvements
+📈Possible Improvements
 🔬 Add more advanced architectures (EfficientNet, Vision Transformers)
 📊 Include model performance metrics (Accuracy, Precision, Recall, F1-score)
 🌐 Deploy on cloud (AWS / Azure / Streamlit Cloud)
